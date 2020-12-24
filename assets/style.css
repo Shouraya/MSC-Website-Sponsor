@@ -194,18 +194,21 @@ a {
   padding-left: 10vh;
 }
 .middle-container {
-  padding-top: 5vh;
-  background-color: blue;
-  height: 100vh;
-  min-height:60vh
+  padding: 5vh;
+  background-color: #16384c;
+  color:white;
+ 
 }
 .middle-container h2 {
   text-align: center;
+
+  font-size: 3rem;
 }
+/*
 .sponsorImg {
   height: 15vh;
   height: 15vh;
-}
+} */
 .col-md-3 {
   justify-content: center;
   align-items: center;
@@ -216,6 +219,69 @@ a {
   margin-top: 10vh;
 }
 
+/* SPONSOR */
+#Sponsor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #16384c;
+  min-height: 85vh;
+  margin-top:none;
+}
+#Sponsor .container {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.container .card {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background-color: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+}
+.container .card:hover{
+  height: 420px;
+}
+.container .card .imgBx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 0.4rem;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.container .card .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.container .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px ;
+  transition-delay: 0.3s;
+}
 
 /* Contact Section */
 #contact {
@@ -258,6 +324,9 @@ a {
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2);
+}
+.contact_content {
+  width: 100%;
 }
 /* Made with Love */
 #love {
