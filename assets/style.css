@@ -177,21 +177,6 @@ a {
   -moz-transition: transform 0.5s;
   transition: transform 0.5s;
 }
-/* @media only screen and (min-width:701px) and (max-width: 750px) {
-  #ML {
-    font-size: 1rem;
-  }
-  #SC {
-    font-size: 0.8rem;
-  }
-  .top-navbar .nav-items .non_active {
-    font-size: ;
-  }
-  .top-navbar .nav-items #is_active {
-    font-size: 0.6rem;
-  }
-} */
-
 /* Navbar end */
 
 .jumbotron {
@@ -214,6 +199,9 @@ a {
   text-align: center;
   color: white;
   text-decoration: underline;
+}
+.bottom-container {
+  color:white;
 }
 .sponsorImg {
   height: 15vh;
