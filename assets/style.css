@@ -1,6 +1,12 @@
 body {
   overflow-x: hidden;
   /* background-color:pink; */
+  
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url('./bg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 
 #nav-text {
@@ -186,11 +192,11 @@ a {
   min-height: 60vh;
 }
 .content_main {
-  background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.2);
   background-image: url('./bg2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
-  background-size: cover;
+  background-size: cover; */
   z-index: -1;
   min-height:80vh;
   widows: 100vw;
@@ -225,7 +231,6 @@ a {
 /* SPONSOR */
 .middle-container {
   padding: 5vh;
-  background-color: #16384c;
   color: white;
 }
 .middle-container h2 {
@@ -236,7 +241,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #16384c;
   min-height: 85vh;
   margin-top: none;
 }
@@ -293,6 +297,11 @@ a {
   opacity: 1;
   margin-top: -40px;
   transition-delay: 0.3s;
+}
+hr.style12 {
+  	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
 }
 
 /* Contact Section */
