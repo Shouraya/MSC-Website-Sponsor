@@ -181,8 +181,10 @@ a {
 
 .jumbotron {
   background-color: white;
+
 }
-.top-container {
+.jumbotron h1 {
+  padding-left: 10vh;
 }
 .middle-container {
   background-color: blue;
@@ -190,18 +192,6 @@ a {
 }
 .middle-container h2 {
   text-align: center;
-}
-.bottom-container {
-  background-color: black;
-  height: 40vh;
-}
-.bottom-container h2 {
-  text-align: center;
-  color: white;
-  text-decoration: underline;
-}
-.bottom-container {
-  color:white;
 }
 .sponsorImg {
   height: 15vh;
@@ -215,4 +205,69 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 10vh;
+}
+
+
+/* Contact Section */
+#contact {
+  min-height: 20vh;
+  background: #020202;
+  position: relative;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#ContactUs {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.3rem;
+  font-weight: bolder;
+  color: white;
+  letter-spacing: 0.6rem;
+  border-bottom: 1px solid white;
+}
+
+.button_contact {
+  background-color: #2b2728; /* Green */
+  border: none;
+  color: white;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.75rem;
+  margin: 0.25rem 0.125rem;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.contact_link {
+  width: 3rem;
+  margin-bottom: 0.7rem;
+}
+
+.contact_link:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+/* Made with Love */
+#love {
+  height: 2.5rem;
+  background-color: #2b2728;
+}
+
+#text_love {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#text-red {
+  color: #c02739;
+}
+
+.pic_contact img {
+  height: 40px;
+  width: 22px;
+  cursor: pointer;
 }
