@@ -189,18 +189,13 @@ a {
 /* Navbar end */
 
 .top-container {
-  min-height: 60vh;
+  min-height: 30vh;
 }
 .content_main {
-  /* background-color: rgba(0, 0, 0, 0.2);
-  background-image: url('./bg2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover; */
   z-index: -1;
-  min-height: 80vh;
+  min-height: 30vh;
   widows: 100vw;
-  padding: 2vh 5vw;
+  padding: 3vh 9vw;
 }
 .content_main h1 {
   z-index: 10;
@@ -229,12 +224,14 @@ a {
 
 /* SPONSOR */
 .middle-container {
-  padding: 5vh;
+  padding: 1vh 5vw 0vh 5vw;
   color: white;
 }
 .middle-container h2 {
   text-align: center;
   font-size: 3rem;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+  z-index: 10;
 }
 #Sponsor {
   display: flex;
@@ -257,12 +254,12 @@ a {
   position: relative;
   max-width: 300px;
   height: 300px;
-  background-color: #fff;
+  background-color: #020E35;
   margin: 30px 10px;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px#fff;
   transition: 0.3s ease-in-out;
 }
 .container .card:hover {
@@ -274,8 +271,8 @@ a {
   height: 260px;
   top: -60px;
   left: 0.2rem;
-  /* z-index: 1;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
+  /* z-index: 1; */
+  /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
 }
 .container .card .imgBx img {
   max-width: 100%;
@@ -306,6 +303,24 @@ hr.style12 {
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0)
   );
+}
+
+.card .content h2 {
+  color: #fff;
+  text-shadow: 2px 3px rgba(255,255,255,0.4);
+  z-index: 10;
+}
+
+.content .sponsor_name {
+  color: #f2f2f2f2;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.content .event_name {
+  color: #f2f2f2f2;
+  font-weight: 300;
+  /* font-size: 1rem; */
 }
 
 /* Contact Section */
