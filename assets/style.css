@@ -259,7 +259,7 @@ a {
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 5px 20px#fff);
+  box-shadow: 0 5px 10px#fff;
   transition: 0.3s ease-in-out;
 }
 .container .card:hover {
@@ -303,6 +303,24 @@ hr.style12 {
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0)
   );
+}
+
+.card .content h2 {
+  color: #fff;
+  text-shadow: 2px 3px rgba(255,255,255,0.4);
+  z-index: 10;
+}
+
+.content .sponsor_name {
+  color: #f2f2f2f2;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.content .event_name {
+  color: #f2f2f2f2;
+  font-weight: 300;
+  /* font-size: 1rem; */
 }
 
 /* Contact Section */
