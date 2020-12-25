@@ -189,13 +189,13 @@ a {
 /* Navbar end */
 
 .top-container {
-  min-height: 60vh;
+  min-height: 30vh;
 }
 .content_main {
   z-index: -1;
-  min-height: 80vh;
+  min-height: 30vh;
   widows: 100vw;
-  padding: 2vh 5vw;
+  padding: 3vh 9vw;
 }
 .content_main h1 {
   z-index: 10;
@@ -224,12 +224,14 @@ a {
 
 /* SPONSOR */
 .middle-container {
-  padding: 5vh;
+  padding: 1vh 5vw 0vh 5vw;
   color: white;
 }
 .middle-container h2 {
   text-align: center;
   font-size: 3rem;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+  z-index: 10;
 }
 #Sponsor {
   display: flex;
