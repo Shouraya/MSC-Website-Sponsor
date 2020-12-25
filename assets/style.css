@@ -192,11 +192,6 @@ a {
   min-height: 60vh;
 }
 .content_main {
-  /* background-color: rgba(0, 0, 0, 0.2);
-  background-image: url('./bg2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover; */
   z-index: -1;
   min-height: 80vh;
   widows: 100vw;
@@ -257,12 +252,12 @@ a {
   position: relative;
   max-width: 300px;
   height: 300px;
-  background-color: #fff;
+  background-color: #020E35;
   margin: 30px 10px;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 20px#fff);
   transition: 0.3s ease-in-out;
 }
 .container .card:hover {
@@ -274,8 +269,8 @@ a {
   height: 260px;
   top: -60px;
   left: 0.2rem;
-  /* z-index: 1;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
+  /* z-index: 1; */
+  /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
 }
 .container .card .imgBx img {
   max-width: 100%;
